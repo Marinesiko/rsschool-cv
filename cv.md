@@ -17,7 +17,7 @@
 
 ## Code example:
 
-'using System;
+using System;
 
 public class MainClass
 {
@@ -35,7 +35,7 @@ public class MainClass
         }
             Console.WriteLine(count); 
     }
-}'
+}
 
 ## Education and courses:
 * Moscow Institute of Electronic Technology
