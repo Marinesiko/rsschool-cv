@@ -4,78 +4,93 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title>My resume</title>
-    
-    <div class = "avatar">
-    <img src="avatar.png" alt="My photo">
-   </div>
-   <h1>Marina Enns</h1> 
-   <h3>Frontend developer (beginner)</h3>
-   <a href="">Contacts</a>
-   <a href="">Work experience</a>
-   <a href="">About myself</a>
-   <a href="">Code example</a>
-   <a href="">Education and courses</a>
-   <a href="">Language</a>
    </head>
 
-  <body>
-     
-    <div class="textcols">
-      <div class="textcols-item">
-        <h3>Contacts</h3>
-        
-<li>Location: Moscow, Russia</li>
-<li>Phone: +7(916)083-83-32</li>
-<li>E-mail: marinesiko@gmail.com</li>
-<li>Telegram: marina_enzo</li>
-
-<h3>Work experience:</h3>
-
-<li>HTML5, CSS3</li>
-<li>JavaScript Basics</li>
-<li>Git, GitHub</li>
-<li>VS Code</li>
-<li>C# Basics</li>
-      </div>
-      <div class="textcols-item">
-        <h3>About myself:</h3>
-        <p>For several years I worked in the technical support of the postal service. For one year I worked as a mailing manager  and technical specialist in the development department in the field of microelectronics.</p> 
-        
-        <h3>Code example:</h3>
-        <p>Calculate the number of numbers that end in 0</p>
-        
-        <code>
-            {
-              public static void Main()
-            { 
-                int n = Convert.ToInt32(Console.ReadLine());
-                int count = 0;
-            for ( int i = 1; i<=n; i++)
-            { 
-                int p = Convert.ToInt32(Console.ReadLine());
-            if (p%10 ==0)
-            {
-                count++;
-                }
-            }
-            Console.WriteLine(count);
-            }
-            }
-          </code>
-        <h3>Education and courses:</h3>
-        <p>Moscow Institute of Electronic Technology</p>
-        <li>Secure communication systems</li>
-        
-        
-        <h3>Language:</h3>
-        <p>English level - A2</p>
-
-        <h3>My projects:</h3>
-        <p>My cv</p>
-      </div>
+   <header>
+      <nav id="menu">
+            <a href="#contacts">Contacts</a> |
+            <a href="#work">Work experience</a>|
+            <a href="#me">About myself</a>|
+            <a href="#code">Code example</a>|
+            <a href="#education">Education and courses</a>|
+            <a href="#proj">My projects</a>|
+            <a href="#lang">Languages</a>
+    </nav>
+    <br>
+    <div class= "grid">
+    <div><img src="avatar.png" width="100" height="100" alt="Marina Enns">
+      <h1>Marina Enns</h1>
+      <h4>Junior Front-end Developer</h4></div>
+    <div></div>
+    <br>
     </div>
-    <a href="">RS school</a>
-    <a href="">Marina Enns, GitHub</a>
-    
-  </body>
+</header>    
+
+<main>
+  <div class ="grid">
+     
+  <div>
+    <h2 id="contacts">Contacts</h2>
+    <ul>
+      <li>Moscow, Russia</li>
+      <li>&#9743; +7(916) 083-83-32</li>
+      <li>&#9993; marinesiko@gmail.com</li>
+    </ul>
+</div>
+<div>
+  <h2 id="me">About myself:</h2>
+  <p>For several years I worked in the technical support of the postal service. For one year I worked as a mailing manager  and technical specialist in the development department in the field of microelectronics.</p> 
+  
+</div>
+        <div>
+          <h2 id="work">Work experience:</h2>
+          <ul>
+          <li>HTML5, CSS3</li>
+          <li>JavaScript Basics</li>
+          <li>Git, GitHub</li>
+          <li>VS Code</li>
+          <li>C# Basics</li>
+          </ul>
+        </div>
+
+                   
+      <div>
+        <h2 id="code">Code example:</h2>       
+        <pre>
+           function multiply(a, b)
+          { 
+            return a * b
+          }
+          </pre>
+      </div>
+                     
+        <div>
+       <h2 id="proj">My projects:</h2>
+      <a href="https://marinesiko.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a>
+      </div>
+      <div>
+        <h2 id="education">Education:</h2>
+        <ul>
+          <li>Moscow Institute of Electronic Technology</li>
+          <li>Secure communication systems</li>
+        </ul>
+        </div>
+        <div>
+                      <h2 id="lang">Languages:</h2>
+            <ul>
+              <li>English level - A2</li>
+              <li>Russian - Native</li>
+            </ul>
+        
+        
+        </div>
+           </div>
+
+ </main>
+
+<footer>
+  <a href="https://rs.school/js/"><img src="rs_school_js.svg" width="50" height="50" alt="RS school"></a>
+  <a href="https://github.com/marinesiko"><img src="github.png" width="50" height="50" alt="GitHub"></a>
+  <a>2021</a>
+</footer>
 </html>
