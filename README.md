@@ -1,2 +1,3 @@
 # rsschool-cv
-For RS School
+https://marinesiko.github.io/rsschool-cv/cv
+https://marinesiko.github.io/rsschool-cv/
