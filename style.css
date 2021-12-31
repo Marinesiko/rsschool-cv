@@ -54,7 +54,6 @@ p {
 }
 
 .grid li {
-  display: inline-block;
   color: rgba(146, 61, 27, 0.863);
 }
 
@@ -65,7 +64,6 @@ p {
 
 .tree {
   display: grid;
-  
   grid-template-columns: 30% 40% 30%;
   
 } 
