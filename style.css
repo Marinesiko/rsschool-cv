@@ -25,12 +25,6 @@ border-color: rgb(241, 229, 174);
   background: linear-gradient(rgb(241, 229, 174), rgb(250, 243, 214));
 }
 
-li {
-  text-align: left;
-  list-style-position: inside;
-  color: rgba(146, 61, 27, 0.863);
-}
-
 
 pre {
   color: rgb(108, 117, 114);
@@ -49,6 +43,20 @@ p {
   grid-template-columns: 40% 60%;
   
 } 
+.grid {
+  width: 100%;
+}
+
+.grid ul {
+  text-align: center;
+  list-style: none;
+  color: rgba(146, 61, 27, 0.863);
+}
+
+.grid li {
+  display: inline-block;
+  color: rgba(146, 61, 27, 0.863);
+}
 
 .tree > * {
   padding: 7px;
@@ -57,6 +65,7 @@ p {
 
 .tree {
   display: grid;
+  
   grid-template-columns: 30% 40% 30%;
   
 } 
