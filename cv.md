@@ -1,9 +1,9 @@
 # Marina Enns
 ## Contacts
-* Moscow, Russia
+* 
 * Phone: 
-* e-mail: marinesiko@gmail.com
-* Telegram: marina_enzo
+* e-mail: 
+* Telegram: 
 
 ## About myself:
 * For several years I worked in the technical support of the postal service. For one year I worked as a mailing manager  and technical specialist in the development department in the field of microelectronics.
