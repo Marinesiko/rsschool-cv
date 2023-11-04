@@ -1,7 +1,7 @@
 # Marina Enns
 ## Contacts
 * Moscow, Russia
-* Phone: +7(916)083-83-32
+* Phone: 
 * e-mail: marinesiko@gmail.com
 * Telegram: marina_enzo
 
